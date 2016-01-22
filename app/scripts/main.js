@@ -1,7 +1,6 @@
 jQuery(document).ready(function ($) {
   var images = $('img').filter(function () {
-    console.log($(this).get(0).naturalWidth());
-    return ($(this).naturalWidth() > 600) || ($(this).naturalHeight() > 300);
+    return ($(this).width() > 600) || ($(this).height() > 300);
   });
   var strVar = "<a href='https://egor.pe' target='_blank' rel='nofollow'><img src='http://placehold.it/728x90&text=Some Banner' /></a>";
   images.each(function (i) {
