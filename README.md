@@ -15,7 +15,7 @@ There are two ad formats:
  * 728x90
  * 468x60
 
-If the image is wider that 728px, the wide ad is displayed. Otherwise, the smallad is displayed. If the image width go under 468px, the overlay disappars.
+If the image is wider that 728px, the wide ad is displayed. Otherwise, the small ad is displayed. If the image width go under 468px, the overlay disappears.
 
 The code is designed to put ads on the first and last matching image on the page.
 
